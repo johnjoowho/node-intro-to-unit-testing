@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const fizzBuzzer = require('../fizzBuzzer');
+const fizzBuzzer = require('../fizzBuzzer').default;
 
 describe('fizzBuzzer', function() {
 
